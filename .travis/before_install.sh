@@ -1,5 +1,8 @@
 #!/bin/sh
 set -e
+
+pip install "pip==19.1.1"
+
 if [ "$LANE" = "ios" ]; then
     brew update
     brew install yarn
