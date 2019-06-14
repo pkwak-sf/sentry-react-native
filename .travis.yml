@@ -1,6 +1,8 @@
 branches:
   only:
     - master
+    # FIXME
+    - /.*/ 
     - /^release\/.+$/
 
 before_install:
