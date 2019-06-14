@@ -1,7 +1,8 @@
 #!/bin/sh
 set -e
 
-pip install "pip==19.1.1"
+sudo pip install "pip==19.1.1"
+sudo pip install wheel setuptools
 
 if [ "$LANE" = "ios" ]; then
     brew update
